@@ -117,8 +117,6 @@ public class courses {
 
             PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM courses");
 
-            pstmt.setString    (1, courseid);
-
             ResultSet rs = pstmt.executeQuery();   
 
             while (rs.next()) {
@@ -139,7 +137,7 @@ public class courses {
     }
     // add get all courses
     public static void main(String args[]) {
-//        courses tester = new courses();
+        courses tester = new courses();
 //        tester.courseid = "id123";
 //        tester.coursename = "name123";
 //        tester.department = "dep123";
@@ -150,5 +148,9 @@ public class courses {
 //      tester.degreename = "mod123";
 //        tester.modRecord();
 //        tester.delRecord();
+//         tester.viewAllRecords();
+//         for(int i = 0; i < tester.courses_list.size(); i++){
+//             System.out.println(tester.courses_list.get(i).courseid);
+//         }
     }
 }
