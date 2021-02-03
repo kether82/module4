@@ -40,7 +40,7 @@ public class coursedegree {
             
             PreparedStatement pstmt = conn.prepareStatement("DELETE FROM coursedegree WHERE courseid = ?");
             pstmt.setString    (1, courseid );
-            // 6. Execute the SQL Statement
+
             pstmt.executeUpdate();   
             pstmt.close();
             conn.close();
