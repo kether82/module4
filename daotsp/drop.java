@@ -37,7 +37,7 @@ public class drop {
             ResultSet rs = pstmt.executeQuery();
             while(rs.next()){
                 enrollment temp = new enrollment();
-                
+                temp.studentid=Student.studentid;
                 temp.courseid = rs.getString("courseid");
                 temp.term = rs.getInt("term");
                 temp.schoolyear = rs.getInt("schoolyear");
