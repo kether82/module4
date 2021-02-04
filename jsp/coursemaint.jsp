@@ -13,7 +13,7 @@
         <title>Student maintenance</title>
     </head>
     <body>
-        <h1>Student maintenance</h1>
+        <h1>Course maintenance</h1>
         <a href="addcourse.jsp">Add Course</a><br/>
         <a href="modifycourse.jsp">Modify Course</a><br/>
         <a href="deletecourse.jsp">Remove Course</a><br/>
