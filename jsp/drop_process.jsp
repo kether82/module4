@@ -27,6 +27,6 @@
             }
         %>
         <br/>
-        <a href="index.html">Back to Enrollment Menu</a>
+        <a href="index.jsp">Back to Enrollment Menu</a>
     </body>
 </html>

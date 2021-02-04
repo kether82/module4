@@ -38,6 +38,7 @@ public class drop {
             pstmt.setInt    (1, Student.studentid );
             // 6. Execute the SQL Statement
             ResultSet rs = pstmt.executeQuery();
+            EnrollmentList.clear();
             while(rs.next()){
                 enrollment temp = new enrollment();
                 temp.studentid = Student.studentid;

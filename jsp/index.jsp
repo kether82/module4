@@ -10,7 +10,7 @@
     </head>
     <body>
         <div><a href="enroll.jsp">Click here</a> to start enrolling</div><br>
-        <div><a href="drop.jsp">Click here</a> to drop courses</div><br>
+        <div><a href="drop_login.jsp">Click here</a> to drop courses</div><br>
         <div><a href="report.jsp">Click here</a> generate report</div><br>
         <div><a href="studentmaintenance.jsp">Click here</a> Modify students</div><br>
         <div><a href="coursemaint.jsp">Click here</a> Modify courses</div>
