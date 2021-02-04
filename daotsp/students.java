@@ -170,38 +170,38 @@ public class students {
     
     public static void main(String args[]) 
     {
-        students st= new students();
-        //st.studentid= 119;
-        //st.completename= "Tico";
-        //st.degreeid= "CS-ST";
-        //st.addRecord();
-        
-        //st.studentid=119;
-        //st.completename="kyle";
-        //st.degreeid="BS-CS";
-        //st.modRecord();
-        
-        //st.studentid=119;
-        //st.delRecord();
-        
-        
-        //st.studentid=10100005;
-        //st.viewRecord();
-        //System.out.println (st.completename);
-        //System.out.println (st.degreeid);
-        //System.out.println (st.studentid);
-        
-        
-        
-         st.getAllStudents();
-        for (int i=0; i<st.studList.size(); i++) {
-            students a = new students();
-            a = st.studList.get(i);
-            System.out.println (a.completename);
-            System.out.println (a.degreeid);
-            System.out.println (a.studentid);
-            System.out.println ("-----");    
-        }
-       
+//        students st= new students();
+//        //st.studentid= 119;
+//        //st.completename= "Tico";
+//        //st.degreeid= "CS-ST";
+//        //st.addRecord();
+//        
+//        //st.studentid=119;
+//        //st.completename="kyle";
+//        //st.degreeid="BS-CS";
+//        //st.modRecord();
+//        
+//        //st.studentid=119;
+//        //st.delRecord();
+//        
+//        
+//        //st.studentid=10100005;
+//        //st.viewRecord();
+//        //System.out.println (st.completename);
+//        //System.out.println (st.degreeid);
+//        //System.out.println (st.studentid);
+//        
+//        
+//        
+//         st.getAllStudents();
+//        for (int i=0; i<st.studList.size(); i++) {
+//            students a = new students();
+//            a = st.studList.get(i);
+//            System.out.println (a.completename);
+//            System.out.println (a.degreeid);
+//            System.out.println (a.studentid);
+//            System.out.println ("-----");    
+//        }
+//       
     }
 }

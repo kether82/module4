@@ -4,7 +4,7 @@ import java.util.*;
 
 public class enroll {
 
-    students                        Student         = new students();
+    public students                 Student         = new students();
     public ArrayList<enrollment>    EnrollmentList  = new ArrayList<> ();
     public ArrayList<coursedegree>  CourseList      = new ArrayList<> ();
     
@@ -40,6 +40,7 @@ public class enroll {
                 coursedegree temp = new coursedegree();
                 temp.courseid = rs.getString("courseid");
                 temp.degree = rs.getString("degree");
+                //System.out.println(temp.courseid);
                 CourseList.add(temp);
             }
             pstmt.close();
@@ -55,21 +56,22 @@ public class enroll {
     public int confirmEnrollment()  { 
         for(enrollment e: EnrollmentList)
             e.addRecord();
+        clearEnrollment();
         return 1;
     }  
     
     public static void main(String args[]){
-        students student_test = new students();
-        student_test.completename = "Complete Name";
-        student_test.degreeid = "BSCS";
-        student_test.studentid = 11912312;
-        enroll enroll_test = new enroll();
-        enroll_test.Student = student_test;
-        enroll_test.loadCourses();
-        for(coursedegree cd : enroll_test.CourseList){
-            System.out.println(cd.courseid + " " + cd.degree + "\n");
-        }
-        
+//        students student_test = new students();
+//        student_test.completename = "Complete Name";
+//        student_test.degreeid = "BSCS";
+//        student_test.studentid = 11912312;
+//        enroll enroll_test = new enroll();
+//        enroll_test.Student = student_test;
+//        enroll_test.loadCourses();
+//        for(coursedegree cd : enroll_test.CourseList){
+//            System.out.println(cd.courseid + " " + cd.degree + "\n");
+//        }
+//        
     }
     
 }

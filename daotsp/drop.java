@@ -9,7 +9,7 @@ import java.util.*;
 
 public class drop {
   
-    students                        Student         = new students();
+    public students                        Student         = new students();
     public ArrayList<enrollment>    EnrollmentList  = new ArrayList<> ();
     public ArrayList<enrollment>    DropList        = new ArrayList<> ();
 
@@ -37,7 +37,7 @@ public class drop {
             ResultSet rs = pstmt.executeQuery();
             while(rs.next()){
                 enrollment temp = new enrollment();
-                
+                temp.studentid = Student.studentid;
                 temp.courseid = rs.getString("courseid");
                 temp.term = rs.getInt("term");
                 temp.schoolyear = rs.getInt("schoolyear");
@@ -60,23 +60,23 @@ public class drop {
     }   // saves dropping data into the Database
     
     public static void main(String[] args){
-        students test = new students();
-        
-        test.studentid = 10100001;
-        test.completename = "Angela Reyes";
-        test.degreeid = "BSCS";
-        
-        drop droptest = new drop();
-        
-        droptest.Student = test;
-        droptest.loadEnrollment();
-        for(enrollment e:droptest.EnrollmentList)
-        {
-            System.out.println(e.courseid);
-            System.out.println(e.term);
-            System.out.println(e.schoolyear);
-            System.out.println("------------");
-        }
-        
+//        students test = new students();
+//        
+//        test.studentid = 10100001;
+//        test.completename = "Angela Reyes";
+//        test.degreeid = "BSCS";
+//        
+//        drop droptest = new drop();
+//        
+//        droptest.Student = test;
+//        droptest.loadEnrollment();
+//        for(enrollment e:droptest.EnrollmentList)
+//        {
+//            System.out.println(e.courseid);
+//            System.out.println(e.term);
+//            System.out.println(e.schoolyear);
+//            System.out.println("------------");
+//        }
+//        
     }
 }

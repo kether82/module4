@@ -3,10 +3,10 @@ import java.sql.*;
 import java.util.*;
 public class enrollment {
     
-    int studentid;
-    String courseid;
-    int term;
-    int schoolyear;
+    public int studentid;
+    public String courseid;
+    public int term;
+    public int schoolyear;
     public  ArrayList<enrollment> enroList = new ArrayList<> ();
     
     public enrollment () 
@@ -186,41 +186,41 @@ public class enrollment {
     
     public static void main(String args[]) 
     {
-        enrollment en= new enrollment();
-        //en.studentid=10100005;
-        //en.courseid="CCPROG3";
-        //en.term=1;
-        //en.schoolyear=20202021;
-        //en.addRecord();
-        
-        //en.studentid=10100005;
-        //en.viewRecord();
-        //System.out.println(en.courseid);
-        //System.out.println(en.schoolyear);
-        //System.out.println(en.studentid);
-        //System.out.println(en.term);
-
-        //en.studentid=10100005;
-        //en.delRecord();
-        
-        
-       //en.studentid=10100005;
-       //en.courseid="CCICOMP";
-       //en.term=2;
-       //en.schoolyear=20202021;
-       //en.modRecord();
-       
-       
-       en.viewAllEnrollment();
-        for (int i=0; i<en.enroList.size(); i++) {
-            enrollment a = new enrollment();
-            a = en.enroList.get(i);
-            
-            System.out.println (a.studentid);
-            System.out.println (a.courseid);
-            System.out.println (a.term);
-            System.out.println (a.schoolyear);
-            System.out.println ("-----");    
-        }
+//        enrollment en= new enrollment();
+//        //en.studentid=10100005;
+//        //en.courseid="CCPROG3";
+//        //en.term=1;
+//        //en.schoolyear=20202021;
+//        //en.addRecord();
+//        
+//        //en.studentid=10100005;
+//        //en.viewRecord();
+//        //System.out.println(en.courseid);
+//        //System.out.println(en.schoolyear);
+//        //System.out.println(en.studentid);
+//        //System.out.println(en.term);
+//
+//        //en.studentid=10100005;
+//        //en.delRecord();
+//        
+//        
+//       //en.studentid=10100005;
+//       //en.courseid="CCICOMP";
+//       //en.term=2;
+//       //en.schoolyear=20202021;
+//       //en.modRecord();
+//       
+//       
+//       en.viewAllEnrollment();
+//        for (int i=0; i<en.enroList.size(); i++) {
+//            enrollment a = new enrollment();
+//            a = en.enroList.get(i);
+//            
+//            System.out.println (a.studentid);
+//            System.out.println (a.courseid);
+//            System.out.println (a.term);
+//            System.out.println (a.schoolyear);
+//            System.out.println ("-----");    
+//        }
     }
 }

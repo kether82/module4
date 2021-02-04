@@ -2,8 +2,8 @@ package enrollment;
 import java.sql.*;
 
 public class degree {
-    String degreeid;
-    String degreename;
+    public String degreeid;
+    public String degreename;
     
     public degree () {
         degreeid = "";
