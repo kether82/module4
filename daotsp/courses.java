@@ -3,10 +3,10 @@ import java.sql.*;
 import java.util.*;
 
 public class courses {
-    String courseid;
-    String coursename;
-    String department;
-    ArrayList<courses> courses_list = new ArrayList<>();
+    public String courseid;
+    public String coursename;
+    public String department;
+    public ArrayList<courses> courses_list = new ArrayList<>();
     public courses () {
         courseid = "";
         coursename ="";
