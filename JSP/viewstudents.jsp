@@ -12,7 +12,7 @@
         <title>view student page</title>
     </head>
     <body>
-       <h1>modify student details</h1>
+       <h1>view student details</h1>
         <form name="viewStudent" action="viewstudent_process.jsp" method="POST">
             Student ID    - <input type="text" name="studentid" id="studentid" /><br />
             <input type="submit" value="view student" name="viewStudent" />
