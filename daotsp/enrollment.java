@@ -77,7 +77,7 @@ public class enrollment {
             pstmt.setInt    (1, studentid);
             pstmt.setString(2,courseid);
             pstmt.setInt(3,term);
-            pstmt.setschoolyear(4,schoolyear);
+            pstmt.setInt(4,schoolyear);
             // 6. Execute the SQL Statement
             pstmt.executeUpdate();   
             pstmt.close();
