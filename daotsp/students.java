@@ -1,6 +1,7 @@
-/* 
-    Author: Patrick Ong
+/*
+Created by: Patrick Ong
 */
+
 package enrollment;
 import java.sql.*;
 import java.util.*;
@@ -144,22 +145,22 @@ public class students {
     
     };
     
-    
-    public int getAllStudents()
+    //eto ung bago
+    //gets the individual student that will drop a certain course
+    public int getAStudent()
     {
       try {
             Connection conn; 
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/enrolldb?useTimezone=true&serverTimezone=UTC&user=root&password=12345678&useSSL=false");
             System.out.println("Connection Successful");
-            PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM students");
+            PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM students s WHERE s.studentid = ?");
+            pstmt.setInt    (1, studentid );
             ResultSet rs = pstmt.executeQuery();
-            studList.clear();
             while (rs.next()) {
-                students a = new students();
-                a.studentid = rs.getInt("studentid");
-                a.completename = rs.getString("completename");
-                a.degreeid  = rs.getString("degreeid");
-                studList.add(a);
+                studentid = rs.getInt("studentid");
+                completename = rs.getString("completename");
+                degreeid  = rs.getString("degreeid");
+             
             }
             return 1;
         } catch (SQLException e) {
