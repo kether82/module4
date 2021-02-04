@@ -1,7 +1,7 @@
 <%-- 
     Document   : viewstudents
     Created on : 02 4, 21, 7:20:51 PM
-    Author     : ccslearner
+    Author     : Patrick Ong
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

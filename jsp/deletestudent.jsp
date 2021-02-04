@@ -1,7 +1,7 @@
 <%-- 
     Document   : deletestudent
     Created on : 02 4, 21, 7:30:31 PM
-    Author     : ccslearner
+    Author     : Patrick Ong, Jethro Tsai
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

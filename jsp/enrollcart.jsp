@@ -1,7 +1,6 @@
 <%-- 
     Document   : enroll_main
-    Created on : 02 4, 21, 3:57:18 PM
-    Author     : ccslearner
+    Author     : Ivan Lim, Jethro Tsai
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, java.util.*" %>

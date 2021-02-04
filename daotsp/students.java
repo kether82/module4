@@ -1,3 +1,6 @@
+/* 
+    Author: Patrick Ong
+*/
 package enrollment;
 import java.sql.*;
 import java.util.*;

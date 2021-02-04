@@ -1,7 +1,7 @@
 <%-- 
     Document   : viewstudent_process.jsp
     Created on : 02 4, 21, 7:23:00 PM
-    Author     : ccslearner
+    Author     : Patrick Ong
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

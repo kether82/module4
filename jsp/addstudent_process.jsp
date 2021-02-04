@@ -1,7 +1,7 @@
 <%-- 
     Document   : addstudent_process.jsp
     Created on : 02 4, 21, 6:44:04 PM
-    Author     : ccslearner
+    Author     : Patrick Ong, Jethro Tsai
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
