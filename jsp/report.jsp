@@ -12,7 +12,7 @@
         <title>Enrollment report</title>
     </head>
     <body>
-       <h1>modify student details</h1>
+       <h1>Report details</h1>
         <form name="genReport" action="generatereport.jsp" method="POST">
             Term   - <input type="text" name="term" id="term" /><br />
      School Year   - <input type="text" name="schoolyear" id="schoolyear" /><br />
