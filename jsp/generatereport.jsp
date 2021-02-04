@@ -34,7 +34,7 @@
             
             } else {
         %>
-                <p>Modifying student details was not successful.</p>
+                <p>generating report was not successful.</p>
         <%
             }
         %>
