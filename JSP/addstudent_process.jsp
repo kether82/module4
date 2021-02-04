@@ -29,6 +29,6 @@
             }
         %>
         <br/>
-        <a href="studentmaintenance.jsp">Back to Enrollment Menu</a>
+        <a href="studentmaintenance.jsp">Back to student maintenance Menu</a>
     </body>
 </html>
