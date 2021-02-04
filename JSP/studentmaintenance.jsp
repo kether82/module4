@@ -18,6 +18,6 @@
         <a href="deletestudent.jsp">Remove Student</a><br/>
         <a href="viewstudent.jsp">View All Student</a><br/>
         
-        <a href="index.jsp">Back to Enrollment Menu</a>
+        <a href="index.jsp">Back to main Menu</a>
     </body>
 </html>
