@@ -16,7 +16,7 @@
         <a href="addstudent.jsp">Add Student</a><br/>
         <a href="modifystudent.jsp">Modify Student</a><br/>
         <a href="deletestudent.jsp">Remove Student</a><br/>
-        <a href="viewstudent.jsp">View All Student</a><br/>
+        <a href="viewstudents.jsp">View All Student</a><br/>
         
         <a href="index.jsp">Back to main Menu</a>
     </body>
